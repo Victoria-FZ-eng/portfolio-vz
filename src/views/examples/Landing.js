@@ -18,21 +18,25 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classnames from "classnames";
-import promo1 from "assets/img/theme/promo-1.png";
-import cardImg from "assets/img/theme/img-1-1200x1000.jpg";
+// import promo1 from "assets/img/theme/promo-1.png";
+// import cardImg from "assets/img/theme/img-1-1200x1000.jpg";
 import ill2 from "assets/img/ill/ill-2.svg";
 import team1 from "assets/img/theme/team-1-800x800.jpg";
 import team2 from "assets/img/theme/team-2-800x800.jpg";
 import team3 from "assets/img/theme/team-3-800x800.jpg";
-import team4 from "assets/img/theme/victoria.jpeg";
+import team4 from "assets/img/theme/team-4-800x800.jpg";
+import jowonders from 'assets/img/theme/jo-wonders.jpg';
+import hornedbeasts from 'assets/img/theme/horned-beasts.jpg';
+import salmoncookies from 'assets/img/theme/salmon-cookies.jpg';
+
 
 // reactstrap components
 import {
-  Badge,
+  // Badge,
   Button,
   Card,
   CardBody,
-  CardImg,
+  // CardImg,
   FormGroup,
   Input,
   InputGroupAddon,
@@ -81,13 +85,11 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        How is Tech. EXCITING{" "}
+                        <span>It's all about feeling POWERFULL</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        You can change the world by simply clicking a button. You never stop learning and updating yourself.It's part of our lives.
                       </p>
                       <div className="btn-wrapper">
                         <Button
@@ -144,18 +146,17 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                          {/* <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
                             <i className="ni ni-check-bold" />
-                          </div>
+                          </div> */}
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            JO WONDERS
                           </h6>
+                          <img src={jowonders} />
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            This the project i worked on with my team foe code 201. It's a tourism website that encourages domesic tourism is Jordan.
                           </p>
-                          <div>
+                          {/* <div>
                             <Badge color="primary" pill className="mr-1">
                               design
                             </Badge>
@@ -165,11 +166,11 @@ class Landing extends React.Component {
                             <Badge color="primary" pill className="mr-1">
                               creative
                             </Badge>
-                          </div>
+                          </div> */}
                           <Button
                             className="mt-4"
                             color="primary"
-                            href="#pablo"
+                            href="https://victoria-fz-eng.github.io/jordan-wonders/"
                             onClick={e => e.preventDefault()}
                           >
                             Learn more
@@ -180,19 +181,18 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                          {/* <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
                             <i className="ni ni-istanbul" />
-                          </div>
+                          </div> */}
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            Salmon Cookies
                           </h6>
+                          <img src={salmoncookies} />
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            This is a website for Salmon-Cookies store branches, all over the world.
                           </p>
                           <div>
-                            <Badge color="success" pill className="mr-1">
+                            {/* <Badge color="success" pill className="mr-1">
                               business
                             </Badge>
                             <Badge color="success" pill className="mr-1">
@@ -200,7 +200,7 @@ class Landing extends React.Component {
                             </Badge>
                             <Badge color="success" pill className="mr-1">
                               success
-                            </Badge>
+                            </Badge> */}
                           </div>
                           <Button
                             className="mt-4"
@@ -216,18 +216,17 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                          {/* <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
                             <i className="ni ni-planet" />
-                          </div>
+                          </div> */}
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            Horned Beasts
                           </h6>
+                          <img src={hornedbeasts} />
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            This is a gallery showing and sorting hornes beasts based on the number of horns.
                           </p>
-                          <div>
+                          {/* <div>
                             <Badge color="warning" pill className="mr-1">
                               marketing
                             </Badge>
@@ -237,14 +236,15 @@ class Landing extends React.Component {
                             <Badge color="warning" pill className="mr-1">
                               launch
                             </Badge>
-                          </div>
+                          </div> */}
                           <Button
                             className="mt-4"
                             color="warning"
-                            href="#pablo"
+                            href="https://hornedbeasts-victoria-d6db47.netlify.app"
                             onClick={e => e.preventDefault()}
                           >
-                            Learn more
+                            
+                            Learn more.
                           </Button>
                         </CardBody>
                       </Card>
@@ -254,7 +254,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <section className="section section-lg">
+          {/* <section className="section section-lg">
             <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-md-2" md="6">
@@ -330,8 +330,8 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
-          <section className="section bg-secondary">
+          </section> */}
+          {/* <section className="section bg-secondary">
             <Container>
               <Row className="row-grid align-items-center">
                 <Col md="6">
@@ -401,7 +401,7 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
+          </section> */}
           <section className="section pb-0 bg-gradient-warning">
             <Container>
               <Row className="row-grid align-items-center">
