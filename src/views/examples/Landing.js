@@ -28,6 +28,7 @@ import React from "react";
 import jowonders from 'assets/img/theme/jo-wonders.jpg';
 import hornedbeasts from 'assets/img/theme/horned-beasts.jpg';
 import salmoncookies from 'assets/img/theme/salmon-cookies.jpg';
+// import pitch from 'assets/img/theme/pitch.jpg';
 
 
 // reactstrap components
@@ -107,6 +108,7 @@ class Landing extends React.Component {
                           color="default"
                           href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
                         >
+                          
                           <span className="btn-inner--icon mr-1">
                             <i className="ni ni-cloud-download-95" />
                           </span>
@@ -135,9 +137,15 @@ class Landing extends React.Component {
                   />
                 </svg>
               </div>
+              
             </section>
             
           </div>
+
+          <section>
+            
+          </section>
+          
           <section className="section section-lg pt-lg-0 mt--200">
             <Container>
               <Row className="justify-content-center">
@@ -218,6 +226,8 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
+         
+          {/* <img src={pitch}/> */}
           
           <section className="section section-lg bg-gradient-default">
             <Container className="pt-lg pb-300">
