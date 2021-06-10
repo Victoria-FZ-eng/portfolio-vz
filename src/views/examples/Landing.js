@@ -89,7 +89,7 @@ class Landing extends React.Component {
                         <span>It's all about feeling POWERFULL</span>
                       </h1>
                       <p className="lead text-white">
-                        You can change the world by simply clicking a button. You never stop learning and updating yourself.It's part of our lives.
+                        You can change the world simply by clicking a button. You never stop learning and updating yourself.It's part of our lives.
                       </p>
                       <div className="btn-wrapper">
                         <Button
