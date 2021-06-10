@@ -29,7 +29,7 @@ class CustomControls extends React.Component {
   };
   componentDidMount() {
     // slider1 init
-    var slider1 = this.refs.slider1;
+    const slider1 = this.refs.slider1;
     Slider.create(slider1, {
       start: [0.0],
       connect: [true, false],
@@ -43,7 +43,7 @@ class CustomControls extends React.Component {
     );
 
     // slider2 init
-    var slider2 = this.refs.slider2;
+    const slider2 = this.refs.slider2;
     Slider.create(slider2, {
       start: [200.0, 400.0],
       connect: [false, true, false],
