@@ -28,6 +28,7 @@ import React from "react";
 import jowonders from 'assets/img/theme/jo-wonders.jpg';
 import hornedbeasts from 'assets/img/theme/horned-beasts.jpg';
 import salmoncookies from 'assets/img/theme/salmon-cookies.jpg';
+import pitch from 'assets/img/theme/pitch.jpg';
 
 
 // reactstrap components
@@ -89,7 +90,7 @@ class Landing extends React.Component {
                         <span>It's all about feeling POWERFULL</span>
                       </h1>
                       <p className="lead text-white">
-                        You can change the world by simply clicking a button. You never stop learning and updating yourself.It's part of our lives.
+                        You can change the world simply by clicking a button. You never stop learning and updating yourself.It's part of our lives.
                       </p>
                       <div className="btn-wrapper">
                         <Button
@@ -107,6 +108,7 @@ class Landing extends React.Component {
                           color="default"
                           href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
                         >
+                          
                           <span className="btn-inner--icon mr-1">
                             <i className="ni ni-cloud-download-95" />
                           </span>
@@ -135,9 +137,15 @@ class Landing extends React.Component {
                   />
                 </svg>
               </div>
+              
             </section>
             
           </div>
+
+          <section>
+            
+          </section>
+          
           <section className="section section-lg pt-lg-0 mt--200">
             <Container>
               <Row className="justify-content-center">
@@ -155,14 +163,14 @@ class Landing extends React.Component {
                             This the project i worked on with my team foe code 201. It's a tourism website that encourages domesic tourism is Jordan.
                           </p>
                         
-                          <Button
+                          {/* <Button
                             className="mt-4"
                             color="primary"
                             href="https://victoria-fz-eng.github.io/jordan-wonders/"
                             onClick={e => e.preventDefault()}
                           >
                             Learn more
-                          </Button>
+                          </Button> */}
                         </CardBody>
                       </Card>
                     </Col>
@@ -178,14 +186,14 @@ class Landing extends React.Component {
                             This is a website for Salmon-Cookies store branches, all over the world.
                           </p>
                        
-                          <Button
+                          {/* <Button
                             className="mt-4"
                             color="success"
                             href="#pablo"
                             onClick={e => e.preventDefault()}
                           >
                             Learn more
-                          </Button>
+                          </Button> */}
                         </CardBody>
                       </Card>
                     </Col>
@@ -201,7 +209,7 @@ class Landing extends React.Component {
                             This is a gallery showing and sorting hornes beasts based on the number of horns.
                           </p>
                          
-                          <Button
+                          {/* <Button
                             className="mt-4"
                             color="warning"
                             href="https://hornedbeasts-victoria-d6db47.netlify.app"
@@ -209,7 +217,7 @@ class Landing extends React.Component {
                           >
                             
                             Learn more.
-                          </Button>
+                          </Button> */}
                         </CardBody>
                       </Card>
                     </Col>
@@ -218,6 +226,8 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
+         
+          <img src={pitch}/>
           
           <section className="section section-lg bg-gradient-default">
             <Container className="pt-lg pb-300">

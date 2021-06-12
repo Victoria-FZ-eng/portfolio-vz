@@ -18,7 +18,7 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Card, Container, Row, Col } from "reactstrap";
+import { Card, Container, Row, Col } from "reactstrap";
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
@@ -84,7 +84,7 @@ class Profile extends React.Component {
                       className="order-lg-3 text-lg-right align-self-lg-center"
                       lg="4"
                     >
-                      <div className="card-profile-actions py-4 mt-lg-0">
+                      {/* <div className="card-profile-actions py-4 mt-lg-0">
                         <Button
                           className="mr-4"
                           color="info"
@@ -103,7 +103,7 @@ class Profile extends React.Component {
                         >
                           Message
                         </Button>
-                      </div>
+                      </div> */}
                     </Col>
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
