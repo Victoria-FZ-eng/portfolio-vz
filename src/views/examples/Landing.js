@@ -28,7 +28,7 @@ import React from "react";
 import jowonders from 'assets/img/theme/jo-wonders.jpg';
 import hornedbeasts from 'assets/img/theme/horned-beasts.jpg';
 import salmoncookies from 'assets/img/theme/salmon-cookies.jpg';
-// import pitch from 'assets/img/theme/pitch.jpg';
+import pitch from 'assets/img/theme/pitch.jpg';
 
 
 // reactstrap components
@@ -163,14 +163,14 @@ class Landing extends React.Component {
                             This the project i worked on with my team foe code 201. It's a tourism website that encourages domesic tourism is Jordan.
                           </p>
                         
-                          <Button
+                          {/* <Button
                             className="mt-4"
                             color="primary"
                             href="https://victoria-fz-eng.github.io/jordan-wonders/"
                             onClick={e => e.preventDefault()}
                           >
                             Learn more
-                          </Button>
+                          </Button> */}
                         </CardBody>
                       </Card>
                     </Col>
@@ -186,14 +186,14 @@ class Landing extends React.Component {
                             This is a website for Salmon-Cookies store branches, all over the world.
                           </p>
                        
-                          <Button
+                          {/* <Button
                             className="mt-4"
                             color="success"
                             href="#pablo"
                             onClick={e => e.preventDefault()}
                           >
                             Learn more
-                          </Button>
+                          </Button> */}
                         </CardBody>
                       </Card>
                     </Col>
@@ -209,7 +209,7 @@ class Landing extends React.Component {
                             This is a gallery showing and sorting hornes beasts based on the number of horns.
                           </p>
                          
-                          <Button
+                          {/* <Button
                             className="mt-4"
                             color="warning"
                             href="https://hornedbeasts-victoria-d6db47.netlify.app"
@@ -217,7 +217,7 @@ class Landing extends React.Component {
                           >
                             
                             Learn more.
-                          </Button>
+                          </Button> */}
                         </CardBody>
                       </Card>
                     </Col>
@@ -227,7 +227,7 @@ class Landing extends React.Component {
             </Container>
           </section>
          
-          {/* <img src={pitch}/> */}
+          <img src={pitch}/>
           
           <section className="section section-lg bg-gradient-default">
             <Container className="pt-lg pb-300">
